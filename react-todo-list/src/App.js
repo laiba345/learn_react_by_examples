@@ -3,9 +3,12 @@ import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 
 function App() {
+  function addTodo(t) {
+    console.log('addTodo:', t)
+  }
   return (
     <div>
-      <TodoInput />
+      <TodoInput addTodo={ addTodo } />
       <TodoList foo="hello foo" />
     </div>
   );
