@@ -48,7 +48,7 @@ npm start
 ## 组件结构
 - 无论 Vue React 都是支持组件嵌套的,嵌套规则和格式也都是参考 HTML 语法。
 - 对于自定义组件的 tag 名称,Vue 和 React 现在都推荐使用 PascalCase 写法,如 <PostBlogPage />,即**首字母大写**
-- 注意:Vue2 当年推荐 <post-blog-page /> 写法,Vue3 改过来了
+- 注意:Vue2 当年推荐** <post-blog-page /> **写法,Vue3 改过来了
 
 ## 组件属性
 - Vue组件接受属性时
